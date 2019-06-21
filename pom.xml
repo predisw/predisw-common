@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.predisw.common</groupId>
-    <artifactId>common-util</artifactId>
+    <artifactId>predisw-common</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
