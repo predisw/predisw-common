@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Optional;
+import java.util.Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -41,6 +42,17 @@ public class SystemTools {
         return Optional.empty();
     }
 
+    public static boolean isOSLinux() {
+
+        Properties props = System.getProperties();
+
+        String os = props.getProperty("os.name");
+        if(os !=null && os.toLowerCase().contains("linux")){
+            return true;
+        }else {
+            return false;
+        }
+    }
 
 
 }
