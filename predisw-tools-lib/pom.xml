@@ -10,9 +10,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.predisw.common</groupId>
     <artifactId>predisw-tools-lib</artifactId>
-
 
     <dependencies>
         <dependency>
